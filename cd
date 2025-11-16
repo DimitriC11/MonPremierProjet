@@ -1,0 +1,33 @@
+[33mcommit c8c9f88d2d9379aee688f0bce9a5f3f467b07322[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Clerc Dimitri <74199321+DimitriC11@users.noreply.github.com>
+Date:   Fri Nov 7 20:42:36 2025 +0100
+
+    Add test modification to README
+
+ README.md | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+
+[33mcommit b7937cb42f54890554c5a230555e5338ea32da0a[m
+Author: Clerc Dimitri <74199321+DimitriC11@users.noreply.github.com>
+Date:   Fri Nov 7 20:42:00 2025 +0100
+
+    Update README.md
+
+[33mcommit 5063f22ed132e3fba397b9a2cc5a94ceb904631e[m
+Author: C.Dimitri <dimitriclerc4@gmail.com>
+Date:   Fri Nov 7 19:14:11 2025 +0100
+
+    Ajout des fichiers index.html et style.css
+
+ index.html | 1 [32m+[m
+ style.css  | 1 [32m+[m
+ 2 files changed, 2 insertions(+)
+
+[33mcommit 3be91263d37b66120103ede810cc62a937069c00[m
+Author: C.Dimitri <dimitriclerc4@gmail.com>
+Date:   Fri Nov 7 18:28:25 2025 +0100
+
+    Premier commit : ajout du fichier README.md
+
+ README.md | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
