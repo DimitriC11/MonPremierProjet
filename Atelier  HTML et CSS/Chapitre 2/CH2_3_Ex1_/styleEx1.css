@@ -1,0 +1,43 @@
+body.background {
+    background-image: url('feuilles.png');
+    
+    background-image : url("pingouin.png"), url('feuilles.png'); 
+    margin-top: 10px;
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed, scroll;
+    background-position: center top, top left;
+.background{
+background-image: url('feuilles.png');
+}
+
+.pingouin{
+    background-image : url("pingouin.png"); 
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.titre{
+     font-size: 60px;
+    color : darkviolet;
+    margin-bottom:50px;
+    margin-top:20px;
+}
+
+h1{
+  font-size: 30px;
+    color : white;
+    margin-bottom:50px;
+    margin-top:50px;  
+}
+.italique{
+    font-style: italic;
+}
+p{
+    color : white;
+    font-size: 28px;
+}
+.liens{
+    font-size: 28px;
+    font-style: italic;
+}
