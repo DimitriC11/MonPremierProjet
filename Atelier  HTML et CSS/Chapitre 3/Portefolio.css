@@ -1,0 +1,111 @@
+body {
+  background-image: url(NEUMORPHIC_CIRCLES_BACKGROUND.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+header {
+    background-color: rgba(61, 59, 59, 0.8);
+    position: fixed;
+    width: 100%;
+    top: 0 ;
+}
+.titre {
+    text-align: center;
+    padding: 125px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(90deg, #FFFDF2, #3d3b3b);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 300% auto;
+    animation: textgradient 20s linear infinite;
+    font-size: 200px;
+  }
+  @keyframes textgradient {
+    from {
+      background-position: 0 center;
+    }
+    to {
+      background-position: 300% center;
+}
+}
+h2 {
+    text-align: left;
+     color: #FFFDF2;
+  -webkit-text-stroke: 0.025em #FFFDF2 ;
+  font-style: oblique;
+    font-family: 'Georgia', serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-style: italic;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color: #FFFDF2;
+  -webkit-text-stroke: 0.025em #FFFDF2 ;
+  font-style: oblique;
+    font-family: 'Georgia', serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-style: italic;
+    border: solid 2px #FFFDF2;
+  border-radius: 10px;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+a:hover {
+  transform: scale(1.15)
+}
+.rubrique {
+    color: #FFFDF2;
+  -webkit-text-stroke: 0.025em #FFFDF2;
+  font-style: oblique;
+    font-family: "OpenSansVariable", sans-serif;
+  font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-weight: 600;
+  transition: font-weight 1s ease-in-out;
+}
+
+
+.styledebase {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #fffdf2;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(61, 59, 59, 0.8);
+    position: fixed;
+    width: 100%;
+    bottom: 0;    
+    margin: 0; 
+    padding: 5px 20px;
+}
+
+.TexteBienvenue{
+  font-size: 35px;
+}
+
+.textenormal{
+  font-size: 20px;
+  color: #FFFDF2;
+  margin: 20px;
+}
